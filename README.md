@@ -1,4 +1,4 @@
-# typescript-fullstack-without_AI
+# typescript-fullstack
 
 A full-stack TypeScript learning project built incrementally with React,
 NestJS, Prisma, MySQL, Docker, pnpm, and Turborepo.
