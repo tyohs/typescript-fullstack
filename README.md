@@ -1,7 +1,13 @@
 # typescript-fullstack-without_AI
 
-A full-stack TypeScript learning project built incrementally with React,
-NestJS, Prisma, MySQL, Docker, pnpm, and Turborepo.
+React、NestJS、Prisma、MySQL、Docker、pnpm、Turborepoを使用し、段階的に構築していくTypeScriptフルスタック学習プロジェクトです。
+AIに実装のすべてを任せるのではなく、UIからデータベースまでの一連の処理を自分で理解し、実装・テスト・デバッグできるようになることを目的としています。
 
-The goal is to understand, implement, test, and debug the complete flow
-from the UI to the database without delegating the entire implementation to AI.
+## Setup
+初回セットアップの流れは、次の4コマンドです。
+
+```bash
+git clone https://github.com/tyohs/typescript-fullstack.git
+cd typescript-fullstack
+pnpm install
+pnpm dev
