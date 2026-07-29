@@ -11,3 +11,4 @@ git clone https://github.com/tyohs/typescript-fullstack.git
 cd typescript-fullstack
 pnpm install
 pnpm dev
+```
