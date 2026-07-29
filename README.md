@@ -1,4 +1,4 @@
-# typescript-fullstack
+# TypeScript Full-Stack — Without AI-generated code
 
 React、NestJS、pnpm workspace、Turborepoを使用し、段階的に構築していくTypeScriptフルスタック学習プロジェクトです。
 AIに実装のすべてを任せるのではなく、UIからAPI、データベースまでの処理を自分で理解し、実装・テスト・デバッグできるようになることを目的としています。
