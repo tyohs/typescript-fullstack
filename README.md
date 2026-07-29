@@ -1,4 +1,4 @@
-# typescript-fullstack-without_AI
+# typescript-fullstack
 
 React、NestJS、pnpm workspace、Turborepoを使用し、段階的に構築していくTypeScriptフルスタック学習プロジェクトです。
 AIに実装のすべてを任せるのではなく、UIからAPI、データベースまでの処理を自分で理解し、実装・テスト・デバッグできるようになることを目的としています。
@@ -26,8 +26,8 @@ AIに実装のすべてを任せるのではなく、UIからAPI、データベ�
 ## セットアップ
 
 ```bash
-git clone https://github.com/tyohs/typescript-fullstack-without_AI.git
-cd typescript-fullstack-without_AI
+git clone https://github.com/tyohs/typescript-fullstack.git
+cd typescript-fullstack
 pnpm install
 ```
 
