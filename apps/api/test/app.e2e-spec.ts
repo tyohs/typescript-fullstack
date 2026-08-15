@@ -23,6 +23,24 @@ describe('AppController (e2e)', () => {
       .expect('Hello World!');
   });
 
+  it('/tasks (GET)', () => {
+    return request(app.getHttpServer())
+      .get('/tasks')
+      .expect(200)
+      .expect([
+        {
+          id: 'task-1',
+          title: 'TypeScriptを復習する',
+          status: 'todo',
+        },
+        {
+          id: 'task-2',
+          title: 'NestJSの公式ドキュメントを読む',
+          status: 'doing',
+        },
+      ]);
+  });
+
   afterEach(async () => {
     await app.close();
   });
